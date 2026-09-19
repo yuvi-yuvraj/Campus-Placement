@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://campus-placement-backend-5w4p.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
