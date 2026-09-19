@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'https://campus-placement-backend-5w4p.onrender.com'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'https://campus-placement-frontend-rlzv.onrender.com'],
   credentials: true
 }));
 
